@@ -92,6 +92,7 @@ function getResult(){
             <div className = 'form-group'>
                 <label style={styles.lbl}>Баг</label>
                 <select className='form-select' onChange={changeBag}>
+                    <option></option>
                     {baguud?.map((e,i)=>(
                         <option key={i}>{e.name}</option>
                     ))}
